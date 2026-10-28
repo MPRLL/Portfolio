@@ -46,6 +46,7 @@
 
   /* ---------- Textes dynamiques : <span data-site="name|role|email"> ---------- */
   document.querySelectorAll("[data-site]").forEach(function (el) { var v = S[el.dataset.site]; if (v) el.textContent = v; });
+  document.querySelectorAll("[data-alt]").forEach(function (el) { var v = (S.alternance || {})[el.dataset.alt]; if (v) el.textContent = v; });
   document.querySelectorAll("[data-site-mail]").forEach(function (el) { if (S.email) el.href = "mailto:" + S.email; });
   document.querySelectorAll("[data-site-cv]").forEach(function (el) { if (S.cv) el.href = S.cv; });
 

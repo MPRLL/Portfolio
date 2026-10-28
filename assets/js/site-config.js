@@ -5,8 +5,17 @@
    ========================================================================== */
 window.SITE = {
   name: "Prénom Nom",
-  role: "Community Manager",
+  role: "En recherche d'alternance · Community Management",
   email: "prenom.nom@email.com",
+
+  // Ma recherche d'alternance : affichée sur l'accueil et la page À propos (modifier ici = partout)
+  alternance: {
+    formation: "Bachelor Communication digitale",
+    rythme: "2 semaines / 2 semaines",
+    duree: "12 mois",
+    debut: "Septembre 2027",
+    lieu: "Ville · mobile"
+  },
 
   // Nom du dépôt GitHub SI l'URL du site est de la forme  https://pseudo.github.io/NOM-DU-DEPOT/
   // Laisser "" si le dépôt s'appelle  pseudo.github.io  (site à la racine).

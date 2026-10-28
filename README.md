@@ -1,4 +1,4 @@
-# Portfolio Community Manager — base de site (style Y2K)
+# Portfolio — candidature en alternance community management (style Y2K)
 
 Site 100 % statique (HTML / CSS / JS), **sans installation ni compilation** : compatible GitHub Pages tel quel.
 
@@ -19,7 +19,7 @@ Le site apparaît après 1–2 minutes sur `https://PSEUDO.github.io/NOM-DU-DEPO
 
 | Quoi | Où |
 |---|---|
-| Nom, métier, e-mail, menu, réseaux, CV | `assets/js/site-config.js` (changé une fois = changé partout) |
+| Nom, e-mail, menu, réseaux, CV **et infos d'alternance** (formation, rythme, durée, début, lieu) | `assets/js/site-config.js` (changé une fois = changé partout) |
 | Couleurs, polices, arrondis, ombres | `assets/css/tokens.css` |
 | Textes de chaque page | directement dans les `.html` (rechercher « Prénom Nom ») |
 | Photo de profil | remplacer `assets/img/profil.svg` (ou mettre `profil.jpg` et changer le nom dans `index.html` et `a-propos.html`) |
