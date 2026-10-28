@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Prénom Nom, Community Manager</title>
+  <meta name="description" content="Contactez Prénom Nom pour une mission, une alternance ou un poste de community manager.">
+  <meta name="theme-color" content="#f3eeff">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header id="site-header"></header>
+
+  <main id="contenu">
+    <section class="page-hero">
+      <span class="sparkle" style="top:30%;right:14%;--s:32px;--c:var(--c-cyan)"></span>
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>Parlons <span class="chrome-text">ensemble</span></h1>
+        <p class="lead">Une mission, une alternance, un poste ? Écrivez-moi, je réponds rapidement.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:2rem">
+      <div class="container split">
+        <div class="window">
+          <div class="window__bar"><div class="window__dots" aria-hidden="true"><span></span><span></span><span></span></div><span class="window__title">coordonnees.txt</span></div>
+          <div class="window__body">
+            <ul class="contact-list">
+              <li>✉ <a data-site-mail href="mailto:prenom.nom@email.com"><span data-site="email">prenom.nom@email.com</span></a></li>
+              <li>✦ <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a></li>
+              <li>✦ <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+              <li>⌖ Ville, France — disponible en remote</li>
+            </ul>
+            <a class="btn btn--lime" href="assets/cv/CV-Prenom-Nom.pdf" data-site-cv download>Télécharger mon CV</a>
+          </div>
+        </div>
+
+        <div class="window">
+          <div class="window__bar"><div class="window__dots" aria-hidden="true"><span></span><span></span><span></span></div><span class="window__title">nouveau_message.exe</span></div>
+          <div class="window__body">
+            <!-- FORMULAIRE : GitHub Pages ne peut pas envoyer d'e-mails.
+                 Créer un formulaire gratuit sur formspree.io puis remplacer VOTRE_ID ci-dessous. -->
+            <form class="form" action="https://formspree.io/f/VOTRE_ID" method="POST">
+              <div class="field"><label for="nom">Nom</label><input id="nom" name="name" type="text" required autocomplete="name"></div>
+              <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+              <div class="field"><label for="sujet">Sujet</label>
+                <select id="sujet" name="subject"><option>Proposition de poste</option><option>Mission freelance</option><option>Alternance / stage</option><option>Autre</option></select>
+              </div>
+              <div class="field"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+              <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <button class="btn btn--primary" type="submit">Envoyer ✦</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="assets/js/site-config.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

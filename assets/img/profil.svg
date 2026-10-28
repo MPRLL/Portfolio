@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#56e4ff"/><stop offset=".55" stop-color="#b9a1ff"/><stop offset="1" stop-color="#ff4fa3"/></linearGradient>
+<pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="2"/></pattern></defs>
+<rect width="800" height="1000" fill="url(#g)"/><rect width="800" height="1000" fill="url(#p)"/>
+<path d="M120 1000 C120 760 260 700 400 700 C540 700 680 760 680 1000Z" fill="#fff" stroke="#1a1240" stroke-width="7"/>
+<circle cx="400" cy="450" r="150" fill="#ffd1e8" stroke="#1a1240" stroke-width="7"/>
+<polygon points="160,80 179,141 240,160 179,179 160,240 141,179 80,160 141,141" fill="#ffe45c" opacity="1"/><polygon points="660,250 672,288 710,300 672,312 660,350 648,312 610,300 648,288" fill="#fff" opacity="1"/>
+<text x="400" y="935" text-anchor="middle" font-family="monospace" font-size="30" font-weight="700" fill="#1a1240">TA PHOTO ICI</text></svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Remplacer PSEUDO / NOM-DU-DEPOT par les vraies valeurs, ajouter une <url> par nouvelle page -->
+  <url><loc>https://PSEUDO.github.io/NOM-DU-DEPOT/</loc></url>
+  <url><loc>https://PSEUDO.github.io/NOM-DU-DEPOT/portfolio.html</loc></url>
+  <url><loc>https://PSEUDO.github.io/NOM-DU-DEPOT/competences.html</loc></url>
+  <url><loc>https://PSEUDO.github.io/NOM-DU-DEPOT/a-propos.html</loc></url>
+  <url><loc>https://PSEUDO.github.io/NOM-DU-DEPOT/contact.html</loc></url>
+</urlset>

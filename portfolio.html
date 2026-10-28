@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — Prénom Nom, Community Manager</title>
+  <meta name="description" content="Tous mes projets de community management : Instagram, TikTok, LinkedIn, stratégies et créations.">
+  <meta name="theme-color" content="#f3eeff">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header id="site-header"></header>
+
+  <main id="contenu">
+    <section class="page-hero">
+      <span class="sparkle" style="top:30%;right:12%;--s:34px;--c:var(--c-lime)"></span>
+      <div class="container">
+        <span class="eyebrow">Portfolio</span>
+        <h1>Mes <span class="chrome-text">projets</span></h1>
+        <p class="lead">Une sélection de missions, de campagnes et de créations. Filtrez par réseau ou par type de mission.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <!-- FILTRES : data-filter doit correspondre à un mot de data-cat sur les cartes.
+             Pour ajouter une catégorie : copier un bouton + utiliser le même mot dans data-cat. -->
+        <div class="filters" role="group" aria-label="Filtrer les projets">
+          <button class="filter-btn" data-filter="all" aria-pressed="true">Tous</button>
+          <button class="filter-btn" data-filter="instagram" aria-pressed="false">Instagram</button>
+          <button class="filter-btn" data-filter="tiktok" aria-pressed="false">TikTok</button>
+          <button class="filter-btn" data-filter="linkedin" aria-pressed="false">LinkedIn</button>
+          <button class="filter-btn" data-filter="strategie" aria-pressed="false">Stratégie</button>
+        </div>
+
+        <div class="grid grid--3">
+          <!-- ===== CARTE PROJET (copier-coller ce bloc pour en ajouter) =====
+               data-cat : une ou plusieurs catégories séparées par un espace -->
+          <a class="card reveal" href="projet-exemple.html" data-cat="instagram strategie">
+            <div class="card__media"><img src="assets/img/projets/projet-01.svg" alt="Aperçu du projet Lancement d'une marque" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag">Instagram</span><h3>Lancement d'une marque</h3><p>Stratégie de lancement et calendrier éditorial sur 3 mois.</p><span class="card__more">Voir le projet →</span></div>
+          </a>
+          <a class="card reveal" href="projet-exemple.html" data-cat="tiktok">
+            <div class="card__media"><img src="assets/img/projets/projet-02.svg" alt="Aperçu du projet Série de vidéos courtes" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--cyan">TikTok</span><h3>Série de vidéos courtes</h3><p>Formats récurrents pensés pour la rétention et le partage.</p><span class="card__more">Voir le projet →</span></div>
+          </a>
+          <a class="card reveal" href="projet-exemple.html" data-cat="linkedin">
+            <div class="card__media"><img src="assets/img/projets/projet-03.svg" alt="Aperçu du projet Marque employeur" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--lilac">LinkedIn</span><h3>Marque employeur</h3><p>Ligne éditoriale pour attirer les talents et valoriser l'équipe.</p><span class="card__more">Voir le projet →</span></div>
+          </a>
+          <a class="card reveal" href="projet-exemple.html" data-cat="instagram">
+            <div class="card__media"><img src="assets/img/projets/projet-04.svg" alt="Aperçu du projet Carrousels pédagogiques" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag">Instagram</span><h3>Carrousels pédagogiques</h3><p>Des contenus éducatifs sauvegardés et partagés par la communauté.</p><span class="card__more">Voir le projet →</span></div>
+          </a>
+          <a class="card reveal" href="projet-exemple.html" data-cat="strategie">
+            <div class="card__media"><img src="assets/img/projets/projet-05.svg" alt="Aperçu du projet Audit et stratégie" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--lime">Stratégie</span><h3>Audit &amp; plan social media</h3><p>Analyse de l'existant, benchmark et feuille de route à 6 mois.</p><span class="card__more">Voir le projet →</span></div>
+          </a>
+          <a class="card reveal" href="projet-exemple.html" data-cat="tiktok instagram">
+            <div class="card__media"><img src="assets/img/projets/projet-06.svg" alt="Aperçu du projet Campagne UGC" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--cyan">TikTok</span><h3>Campagne UGC</h3><p>Mobilisation de créateurs et contenus générés par les utilisateurs.</p><span class="card__more">Voir le projet →</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="assets/js/site-config.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

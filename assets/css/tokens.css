@@ -1,0 +1,42 @@
+/* ==========================================================================
+   TOKENS — LE FICHIER À MODIFIER POUR CHANGER L'IDENTITÉ VISUELLE
+   Couleurs, polices, arrondis, ombres : tout le site s'adapte automatiquement.
+   ========================================================================== */
+
+:root {
+  /* Polices (chargées via Google Fonts dans le <head> de chaque page) */
+  --font-display: "Unbounded", system-ui, sans-serif;   /* titres */
+  --font-body: "Space Grotesk", system-ui, sans-serif;  /* texte */
+  --font-mono: "DM Mono", ui-monospace, monospace;      /* petits labels */
+
+  /* Couleurs de base */
+  --c-bg: #f3eeff;          /* fond général (lavande très clair) */
+  --c-surface: #ffffff;     /* fond des cartes / fenêtres */
+  --c-ink: #1a1240;         /* texte + contours (indigo profond) */
+  --c-ink-soft: #5a5280;    /* texte secondaire */
+
+  /* Couleurs d'accent Y2K */
+  --c-pink: #ff4fa3;
+  --c-pink-soft: #ffd1e8;
+  --c-blue: #3f6cff;
+  --c-cyan: #56e4ff;
+  --c-lime: #c9ff47;
+  --c-lilac: #b9a1ff;
+  --c-yellow: #ffe45c;
+
+  /* Dégradés signature */
+  --grad-chrome: linear-gradient(180deg, #ffffff 0%, #e3e9f7 45%, #bcc7e0 50%, #f1f4fc 100%);
+  --grad-aqua: linear-gradient(135deg, var(--c-cyan), var(--c-lilac) 55%, var(--c-pink));
+  --grad-pink-gloss: linear-gradient(180deg, #ff93cb 0%, #ff4fa3 50%, #ef2d8b 51%, #ff70b8 100%);
+
+  /* Forme */
+  --radius: 20px;
+  --radius-sm: 10px;
+  --stroke: 2px;
+  --shadow-hard: 5px 5px 0 var(--c-ink);
+  --shadow-small: 3px 3px 0 var(--c-ink);
+
+  /* Mise en page */
+  --container: 1160px;
+  --header-h: 72px;
+}

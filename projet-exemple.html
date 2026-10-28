@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ╔════════════════════════════════════════════════════════════════╗
+       ║ MODÈLE DE PAGE PROJET                                          ║
+       ║ 1. Dupliquer ce fichier, ex. : projet-marque-x.html            ║
+       ║ 2. Remplacer les textes + images                               ║
+       ║ 3. Dans portfolio.html, faire pointer une carte vers ce fichier║
+       ╚════════════════════════════════════════════════════════════════╝ -->
+  <title>Lancement d'une marque — Prénom Nom</title>
+  <meta name="description" content="Étude de cas : stratégie de lancement Instagram, de l'audit aux résultats.">
+  <meta name="theme-color" content="#f3eeff">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header id="site-header"></header>
+
+  <main id="contenu">
+    <section class="page-hero">
+      <div class="container">
+        <a href="portfolio.html" class="eyebrow">← Retour au portfolio</a>
+        <h1>Lancement d'une <span class="chrome-text">marque</span></h1>
+        <p class="lead">Une phrase d'accroche qui résume la mission et son impact.</p>
+
+        <!-- Fiche rapide -->
+        <dl class="project-meta">
+          <div><dt>Client</dt><dd>Nom de la marque</dd></div>
+          <div><dt>Rôle</dt><dd>Community Manager</dd></div>
+          <div><dt>Période</dt><dd>Jan. – Mars 2026</dd></div>
+          <div><dt>Réseaux</dt><dd>Instagram, TikTok</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1rem">
+      <div class="container">
+
+        <!-- Image principale (ratio 16/9 conseillé) -->
+        <div class="window project-cover">
+          <div class="window__bar"><div class="window__dots" aria-hidden="true"><span></span><span></span><span></span></div><span class="window__title">projet_principal.jpg</span></div>
+          <div class="window__body window__body--flush"><img src="assets/img/projets/projet-01.svg" alt="Visuel principal du projet" width="1200" height="900"></div>
+        </div>
+
+        <div class="prose">
+          <h2>Contexte</h2>
+          <p>Présentez le client, son marché et la situation de départ.</p>
+
+          <h2>Objectifs</h2>
+          <ul class="check-list">
+            <li>Objectif n°1 (ex. : créer une communauté de 5 000 abonnés)</li>
+            <li>Objectif n°2</li>
+            <li>Objectif n°3</li>
+          </ul>
+
+          <h2>Ma stratégie</h2>
+          <p>Expliquez votre démarche : cibles, ton, piliers de contenu, formats, fréquence, outils utilisés.</p>
+          <ul class="chip-list"><li class="chip">Canva</li><li class="chip">Notion</li><li class="chip">Meta Business Suite</li></ul>
+
+          <h2>Contenus créés</h2>
+        </div>
+
+        <!-- Galerie : <a data-lightbox href="grande-image"> ouvre l'image en grand au clic -->
+        <div class="gallery">
+          <a href="assets/img/projets/projet-01.svg" data-lightbox><img src="assets/img/projets/projet-01.svg" alt="Contenu 1" loading="lazy"></a>
+          <a href="assets/img/projets/projet-02.svg" data-lightbox><img src="assets/img/projets/projet-02.svg" alt="Contenu 2" loading="lazy"></a>
+          <a href="assets/img/projets/projet-03.svg" data-lightbox><img src="assets/img/projets/projet-03.svg" alt="Contenu 3" loading="lazy"></a>
+          <a href="assets/img/projets/projet-04.svg" data-lightbox><img src="assets/img/projets/projet-04.svg" alt="Contenu 4" loading="lazy"></a>
+        </div>
+
+        <div class="prose"><h2>Résultats</h2></div>
+        <div class="stats">
+          <div class="stat"><div class="stat__num">+3,2K</div><div class="stat__label">abonnés en 3 mois</div></div>
+          <div class="stat"><div class="stat__num">9,1%</div><div class="stat__label">taux d'engagement</div></div>
+          <div class="stat"><div class="stat__num">x4</div><div class="stat__label">portée moyenne</div></div>
+          <div class="stat"><div class="stat__num">120</div><div class="stat__label">publications</div></div>
+        </div>
+
+        <div class="project-nav">
+          <a class="btn" href="portfolio.html">← Tous les projets</a>
+          <a class="btn btn--primary" href="contact.html">Un projet en tête ? →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="assets/js/site-config.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
