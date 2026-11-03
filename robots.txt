@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-# Remplacer par l'URL réelle du site :
-Sitemap: https://PSEUDO.github.io/NOM-DU-DEPOT/sitemap.xml
+Sitemap: https://mprll.github.io/Portfolio/sitemap.xml

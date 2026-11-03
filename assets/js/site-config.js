@@ -17,10 +17,7 @@ window.SITE = {
     lieu: "Saint-Denis, Sainte-Marie · mobile"
   },
 
-  // Nom du dépôt GitHub SI l'URL du site est de la forme  https://pseudo.github.io/NOM-DU-DEPOT/
-  // Laisser "" si le dépôt s'appelle  pseudo.github.io  (site à la racine).
-  // Sert uniquement à la page 404.html.
-  repoName: "",
+  repoName: "Portfolio",
 
   // Menu principal : [libellé, fichier]. Pour ajouter une page au menu, ajouter une ligne.
   nav: [
@@ -37,5 +34,5 @@ window.SITE = {
   ],
 
   // Chemin du CV (PDF) — remplacer le fichier dans assets/cv/ en gardant ce nom
-  cv: "assets/cv/CV-Prenom-Nom.pdf"
+  cv: "assets/cv/CV-Morgane_PRELLE.pdf"
 };
