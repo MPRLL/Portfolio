@@ -21,7 +21,7 @@ Le site apparaît après 1–2 minutes sur `https://PSEUDO.github.io/NOM-DU-DEPO
 |---|---|
 | Nom, e-mail, menu, réseaux, CV **et infos d'alternance** (formation, rythme, durée, début, lieu) | `assets/js/site-config.js` (changé une fois = changé partout) |
 | Couleurs, polices, arrondis, ombres | `assets/css/tokens.css` |
-| Textes de chaque page | directement dans les `.html` (rechercher « Prénom Nom ») |
+| Textes de chaque page | directement dans les `.html` (rechercher « Morgane PRELLE ») |
 | Photo de profil | remplacer `assets/img/profil.svg` (ou mettre `profil.jpg` et changer le nom dans `index.html` et `a-propos.html`) |
 | CV | remplacer `assets/cv/CV-Prenom-Nom.pdf` |
 | URL du site (aperçu de partage, SEO) | remplacer `PSEUDO` / `NOM-DU-DEPOT` dans `index.html` (balise `og:image`), `robots.txt`, `sitemap.xml` |

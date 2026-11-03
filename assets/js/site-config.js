@@ -4,17 +4,17 @@
    on change une fois, ça se met à jour sur TOUTES les pages.
    ========================================================================== */
 window.SITE = {
-  name: "Prénom Nom",
+  name: "Morgane PRELLE",
   role: "En recherche d'alternance · Community Management",
-  email: "prenom.nom@email.com",
+  email: "morgane.prelle@orange.fr",
 
   // Ma recherche d'alternance : affichée sur l'accueil et la page À propos (modifier ici = partout)
   alternance: {
-    formation: "Bachelor Communication digitale",
-    rythme: "2 semaines / 2 semaines",
+    formation: "Responsable d'Activité Commercial et Marketing (RACM) chez Tetranergy Business School",
+    rythme: "1 jour en formation / 4 jours en entreprises",
     duree: "12 mois",
-    debut: "Septembre 2027",
-    lieu: "Ville · mobile"
+    debut: "Dès que possible",
+    lieu: "Saint-Denis, Sainte-Marie · mobile"
   },
 
   // Nom du dépôt GitHub SI l'URL du site est de la forme  https://pseudo.github.io/NOM-DU-DEPOT/
@@ -25,17 +25,15 @@ window.SITE = {
   // Menu principal : [libellé, fichier]. Pour ajouter une page au menu, ajouter une ligne.
   nav: [
     ["Accueil", "index.html"],
+    ["Mon profil", "a-propos.html"],
     ["Portfolio", "portfolio.html"],
     ["Compétences", "competences.html"],
-    ["À propos", "a-propos.html"],
     ["Contact", "contact.html"]
   ],
 
   // Réseaux affichés dans le pied de page (supprimer une ligne = la retirer)
   socials: [
-    { label: "Instagram", url: "https://www.instagram.com/" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/" },
-    { label: "TikTok", url: "https://www.tiktok.com/" }
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/morgane-prelle-b58829434/" }
   ],
 
   // Chemin du CV (PDF) — remplacer le fichier dans assets/cv/ en gardant ce nom

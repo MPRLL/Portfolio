@@ -41,7 +41,7 @@
       '<p style="margin-top:1rem;opacity:.85">' + esc(S.role || "") + '<br><a href="mailto:' + esc(S.email || "") + '">' + esc(S.email || "") + "</a></p></div>" +
       "<div><h3>Navigation</h3><ul>" + nl + "</ul></div>" +
       "<div><h3>Réseaux</h3><ul>" + sl + "</ul></div></div>" +
-      '<div class="container site-footer__bottom"><span>© ' + year + " " + esc(S.name || "") + '</span><span>Fait avec ✦ &amp; beaucoup de café</span></div>';
+      '<div class="container site-footer__bottom"><span>© ' + year + " " + esc(S.name || "") + '</div>';
   }
 
   /* ---------- Textes dynamiques : <span data-site="name|role|email"> ---------- */

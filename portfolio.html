@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projets — Prénom Nom, alternance en community management</title>
+  <title>Projets — Morgane PRELLE, alternance en community management</title>
   <meta name="description" content="Mes projets de community management : projets d'école, personnels et de stage.">
   <meta name="theme-color" content="#f3eeff">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
@@ -23,53 +23,62 @@
       <div class="container">
         <span class="eyebrow">Portfolio</span>
         <h1>Mes <span class="chrome-text">projets</span></h1>
-        <p class="lead">Projets d'école, projets personnels et expériences de stage : voici ce que je sais déjà faire. Filtrez par réseau ou par type de contenu.</p>
+        <p class="lead">Projets d'école et projets personnels : voici ce que je sais déjà faire. Filtrez par type de contenu.</p>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
+    
 
-        <!-- FILTRES : data-filter doit correspondre à un mot de data-cat sur les cartes.
-             Pour ajouter une catégorie : copier un bouton + utiliser le même mot dans data-cat. -->
+    <section class="section section--spec">
+      <div class="container">
         <div class="filters" role="group" aria-label="Filtrer les projets">
           <button class="filter-btn" data-filter="all" aria-pressed="true">Tous</button>
-          <button class="filter-btn" data-filter="instagram" aria-pressed="false">Instagram</button>
-          <button class="filter-btn" data-filter="tiktok" aria-pressed="false">TikTok</button>
-          <button class="filter-btn" data-filter="linkedin" aria-pressed="false">LinkedIn</button>
-          <button class="filter-btn" data-filter="strategie" aria-pressed="false">Stratégie</button>
+          <button class="filter-btn" data-filter="perso" aria-pressed="false">Projet perso</button>
+          <button class="filter-btn" data-filter="ecole" aria-pressed="false">Projet d'école</button>
         </div>
 
         <div class="grid grid--3">
           <!-- ===== CARTE PROJET (copier-coller ce bloc pour en ajouter) =====
                data-cat : une ou plusieurs catégories séparées par un espace -->
-          <a class="card reveal" href="projet-exemple.html" data-cat="instagram strategie">
-            <div class="card__media"><img src="assets/img/projets/projet-01.svg" alt="Aperçu du projet Lancement d'une marque" width="1200" height="900" loading="lazy"></div>
-            <div class="card__body"><span class="tag">Projet d'école · Instagram</span><h3>Lancement d'une marque</h3><p>Stratégie de lancement et calendrier éditorial sur 3 mois.</p><span class="card__more">Voir le projet →</span></div>
+          <a class="card reveal" href="projet-culinarion.html" data-cat="perso">
+            <div class="card__media"><img src="assets/img/CommunityManagerBackgroundBanner/culinarion.png" alt="Aperçu du projet Lancement d'une marque" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--culi">Projet perso</span><h3>Contenus pour Culinarion</h3><span class="card__more">Voir le projet →</span></div>
           </a>
-          <a class="card reveal" href="projet-exemple.html" data-cat="tiktok">
-            <div class="card__media"><img src="assets/img/projets/projet-02.svg" alt="Aperçu du projet Série de vidéos courtes" width="1200" height="900" loading="lazy"></div>
-            <div class="card__body"><span class="tag tag--cyan">Projet perso · TikTok</span><h3>Série de vidéos courtes</h3><p>Formats récurrents pensés pour la rétention et le partage.</p><span class="card__more">Voir le projet →</span></div>
+          <a class="card reveal" href="projet-rare-beauty.html" data-cat="ecole">
+            <div class="card__media"><img src="assets/img/CommunityManagerBackgroundBanner/rarebeauty.png" alt="Aperçu du projet Marque employeur" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--rareb">Projet d'école</span><h3>MoodBoard RareBeauty</h3><span class="card__more">Voir le projet →</span></div>
           </a>
-          <a class="card reveal" href="projet-exemple.html" data-cat="linkedin">
-            <div class="card__media"><img src="assets/img/projets/projet-03.svg" alt="Aperçu du projet Marque employeur" width="1200" height="900" loading="lazy"></div>
-            <div class="card__body"><span class="tag tag--lilac">Stage · LinkedIn</span><h3>Marque employeur</h3><p>Ligne éditoriale pour attirer les talents et valoriser l'équipe.</p><span class="card__more">Voir le projet →</span></div>
+          <a class="card reveal" href="projet-ozonebio.html" data-cat="perso">
+            <div class="card__media"><img src="assets/img/CommunityManagerBackgroundBanner/ozonebio.png" alt="Aperçu du projet Série de vidéos courtes" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--ozon">Projet perso</span><h3>Contenus pour OzoneBio</h3><span class="card__more">Voir le projet →</span></div>
           </a>
-          <a class="card reveal" href="projet-exemple.html" data-cat="instagram">
-            <div class="card__media"><img src="assets/img/projets/projet-04.svg" alt="Aperçu du projet Carrousels pédagogiques" width="1200" height="900" loading="lazy"></div>
-            <div class="card__body"><span class="tag">Projet perso · Instagram</span><h3>Carrousels pédagogiques</h3><p>Des contenus éducatifs sauvegardés et partagés par la communauté.</p><span class="card__more">Voir le projet →</span></div>
+          <a class="card reveal" href="projet-creamoka.html" data-cat="ecole">
+            <div class="card__media"><img src="assets/img/CommunityManagerBackgroundBanner/creamoka.png" alt="Aperçu du projet Carrousels pédagogiques" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--crea">Projet d'école</span><h3>Création d'une marque : Créamoka</h3><span class="card__more">Voir le projet →</span></div>
           </a>
-          <a class="card reveal" href="projet-exemple.html" data-cat="strategie">
-            <div class="card__media"><img src="assets/img/projets/projet-05.svg" alt="Aperçu du projet Audit et stratégie" width="1200" height="900" loading="lazy"></div>
-            <div class="card__body"><span class="tag tag--lime">Projet d'école · Stratégie</span><h3>Audit &amp; plan social media</h3><p>Analyse de l'existant, benchmark et feuille de route à 6 mois.</p><span class="card__more">Voir le projet →</span></div>
+          <a class="card reveal" href="projet-yoyoso.html" data-cat="perso">
+            <div class="card__media"><img src="assets/img/CommunityManagerBackgroundBanner/yoyoso.png" alt="Aperçu du projet Campagne UGC" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--yoyo">Projet perso</span><h3>Contenu pour Yoyoso</h3><span class="card__more">Voir le projet →</span></div>
           </a>
-          <a class="card reveal" href="projet-exemple.html" data-cat="tiktok instagram">
-            <div class="card__media"><img src="assets/img/projets/projet-06.svg" alt="Aperçu du projet Campagne UGC" width="1200" height="900" loading="lazy"></div>
-            <div class="card__body"><span class="tag tag--cyan">Stage · TikTok</span><h3>Campagne UGC</h3><p>Mobilisation de créateurs et contenus générés par les utilisateurs.</p><span class="card__more">Voir le projet →</span></div>
+          <a class="card reveal" href="projet-persona-yves-rocher.html" data-cat="ecole">
+            <div class="card__media"><img src="assets/img/CommunityManagerBackgroundBanner/yvesrocher.png" alt="Aperçu du projet Audit et stratégie" width="1200" height="900" loading="lazy"></div>
+            <div class="card__body"><span class="tag tag--yvr">Projet d'école</span><h3>Persona : Yves Rocher</h3><span class="card__more">Voir le projet →</span></div>
           </a>
         </div>
       </div>
     </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="window reveal">
+          <div class="window__bar"><div class="window__dots" aria-hidden="true"><span></span><span></span><span></span></div><span class="window__title">pourquoi_avoir_une_community_manager.txt</span></div>
+          <div class="window__body quote">
+            <blockquote>Faire appel à un community manager est important pour développer la présence d’une entreprise sur les réseaux sociaux et améliorer sa visibilité. Il permet de valoriser l’image de marque, de créer du contenu adapté à sa cible et de maintenir une relation régulière avec sa communauté. Il contribue également à attirer de nouveaux clients, à fidéliser les clients existants et à faire connaître les produits ou services de l’entreprise. Une bonne gestion des réseaux sociaux permet ainsi de renforcer la notoriété et de développer l’activité de l’entreprise.</blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section section--tight">
       <div class="container center">
         <p class="lead" style="margin-inline:auto">Un projet vous parle ? Je serais ravi·e d'en discuter en entretien.</p>
